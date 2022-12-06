@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Geography and Environment</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  color: white;
+}
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+.header-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("geog.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #FFFFE0;
+  padding: 20px;
+}
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: #000000;
+  padding: 20px;
+}
+/* Content */
+.content {
+  background-color: #FFFFE0;
+  width: 100%;
+  padding: 20px;
+}
+/* Footer */
+.botnavcontainer {
+ overflow: hidden;
+ position: fixed;
+ bottom: 0;
+ right: 0;
+ left: 0;
+ max-width: 150vw;
+}
+.botnav {
+list-style-type: none;
+margin: 6px;
+padding: 16px;
+overflow: hidden;
+max-width: 100vw;
+}
+.botnav a {
+ text-decoration: none;
+ padding: 10px 10px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 17px;
+ float: left;
+ color: #cfe2e2;
+}
+.botnav a:hover {
+ color: black;
+}
+.botnav a:active {
+ color: white;
+}
+.botnav a.contact-page {
+ background-color: #6699FF;
+}
+.botnav a.contact-page:hover{
+ color: black;
+}
+.botnav a.contact-page:active{
+ color: white;
+}
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header-image">
+  <div class="header">
+  <h1>GEOGRAPHY AND ENVIRONMENT</h1>
+</div>
+
+<div class="navbar">
+  <a href="History.html">History</a>
+  <a href="Demographics.html">Demographics</a>
+  <a href="Culture.html">Culture</a>
+  
+</div>
+
+<div class="row">
+  <div class="side">
+  <div class="main">
+    <div class="content" >
+      <p>The Philippines is a 7,107-island archipelago located in the South China, Philippine, Sulu, and Celebes Seas, as well as the Luzon Strait. The islands' topography is mostly mountainous, with narrow to large coastal lowlands varying by island. The Philippines' outstanding physical features include the archipelago's irregular configuration, a coastline of approximately 22,550 miles (36,290 km), a vast expanse of mountainous country, narrow and interrupted coastal plains, a generally northward trend of river systems, and spectacular lakes. 
+      </p>
+      <p>The islands are mostly made of volcanic rock and coral, but all of the major rock formations are present. The mountain ranges, for the most part, run roughly north to south, in the same general direction as the islands themselves. The majority of Luzon's central plain, which measures about 150 by 50 miles (240 by 80 km), is only about 100 feet (30 metres) above sea level. Southern Luzon is dominated by isolated volcanoes and irregular masses of hills and mountains. Mayon Volcano (8,077 feet [2,462 metres]), near Legaspi (Legazpi) in Albay province on the island's Bicol Peninsula in the southeast, is the highest peak.</p>
+     
+    </div>
+  </div>
+</div>
+
+<div class="botnavcontainer">
+ <div class="botnav" style="background-color: #3366FF;">
+ 
+ <a href="Home.html" class="active">Home</a>
+ <a href="History.html">About Philippines</a>
+ <a href="Luzon.html">Tourist Attractions</a>
+ <a href="VideoGallery.html">Video Gallery</a>
+  <a href="LogIn.html">LogIn</a>
+ <a style="float:right" href="contact.html" class="contact-page">Contact Us</a>
+ </div> 
+
+</body>
+</html>

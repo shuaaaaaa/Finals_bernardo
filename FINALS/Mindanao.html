@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Mindanao</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  color: white;
+}
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+.header-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("mindanao.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #FFFFE0;
+  padding: 20px;
+}
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: #000000;
+  padding: 20px;
+}
+/* Content */
+.content {
+  background-color: #FFFFE0;
+  width: 100%;
+  padding: 20px;
+}
+/* Footer */
+.botnavcontainer {
+ overflow: hidden;
+ position: fixed;
+ bottom: 0;
+ right: 0;
+ left: 0;
+ max-width: 150vw;
+}
+.botnav {
+list-style-type: none;
+margin: 6px;
+padding: 16px;
+overflow: hidden;
+max-width: 100vw;
+}
+.botnav a {
+ text-decoration: none;
+ padding: 10px 10px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 17px;
+ float: left;
+ color: #cfe2e2;
+}
+.botnav a:hover {
+ color: black;
+}
+.botnav a:active {
+ color: white;
+}
+.botnav a.contact-page {
+ background-color: #6699FF;
+}
+.botnav a.contact-page:hover{
+ color: black;
+}
+.botnav a.contact-page:active{
+ color: white;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header-image">
+  <div class="header">
+  <h1>MINDANAO</h1>
+</div>
+
+<div class="navbar">
+  <a href="Luzon.html">LUZON</a>
+  <a href="Visayas.html">VISAYAS</a>
+</div>
+
+<div class="row">
+  <div class="side">
+      <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="river.jpg">
+      <img src="river.jpg" alt="Enchanted River" width="600" height="400">
+    </a> 
+    <div class="desc">
+      <p>The Hinatuan Enchanted River, also known as the Hinatuan Sacred River, is a deep spring river on the Philippine island of Mindanao. At Barangay Talisay, Hinatuan, Surigao del Sur, it empties into the Philippine Sea and the Pacific Ocean.</p>
+    </div>
+  </div>
+</div>
+     <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="raft.jpg">
+      <img src="raft.jpg" alt="Whitewater Rafting" width="600" height="400">
+    </a>
+    <div class="desc">Cagayan De Oro (CDO) is known as the Philippines' whitewater rafting capital. Whitewater rafting is the most popular extreme sport in CDO among adrenaline junkies."</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="pungko.jpg">
+      <img src="pungko.jpg" alt="Magpupungko Rock Pools" width="600" height="400">
+    </a>
+    <div class="desc">Magpupungko Rock Pools is a collection of salt-water pools on rocky flats ideal for swimming and cliff jumping. The Magpupungko Rock Pools are located on Siargao Island's eastern coast, in the Philippines. It's about 40 minutes from General Luna's main tourist hub.</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="white.jpg">
+      <img src="white.jpg" alt="White Island" width="600" height="400">
+    </a>
+    <div class="desc">White Island is a must-see destination for tourists seeking white sand beaches, even if only for a short visit. When the weather is nice, the island-sandbar is more popular with its C-shaped island, as it usually changes shape depending on the weather and tide conditions.</div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+<div class="botnavcontainer">
+ <div class="botnav" style="background-color: #3366FF;">
+ 
+ <a href="Home.html" class="active">Home</a>
+ <a href="History.html">About Philippines</a>
+ <a href="Luzon.html">Tourist Attractions</a>
+ <a href="VideoGallery.html">Video Gallery</a>
+  <a href="LogIn.html">LogIn</a>
+ <a style="float:right" href="contact.html" class="contact-page">Contact Us</a>
+ </div> 
+
+</body>
+</html>

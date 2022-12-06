@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>History</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  color: white;
+}
+/* font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+.header-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("phil.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #FFFFE0;
+  padding: 20px;
+}
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: #000000;
+  padding: 20px;
+}
+/* Content */
+.content {
+  background-color: #FFFFE0;
+  width: 100%;
+  padding: 20px;
+}
+/* Footer */
+.botnavcontainer {
+ overflow: hidden;
+ position: fixed;
+ bottom: 0;
+ right: 0;
+ left: 0;
+ max-width: 150vw;
+}
+.botnav {
+list-style-type: none;
+margin: 6px;
+padding: 16px;
+overflow: hidden;
+max-width: 100vw;
+}
+.botnav a {
+ text-decoration: none;
+ padding: 10px 10px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 17px;
+ float: left;
+ color: #cfe2e2;
+}
+.botnav a:hover {
+ color: black;
+}
+.botnav a:active {
+ color: white;
+}
+.botnav a.contact-page {
+ background-color: #6699FF;
+}
+.botnav a.contact-page:hover{
+ color: black;
+}
+.botnav a.contact-page:active{
+ color: white;
+}
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header-image">
+  <div class="header">
+  <h1>HISTORY OF THE PHILIPPINES</h1>
+  <p>Discovery of the Philippines by the West and Revolution.</p>
+</div>
+</div>
+
+
+<div class="navbar">
+  <a href="GeographyandEnvironment.html">Geography And Environment</a>
+  <a href="Demographics.html">Demographics</a>
+  <a href="Culture.html">Culture</a>
+  
+</div>
+
+<div class="row">
+  <div class="side">
+  <div class="main">
+    <div class="content" >
+      <p>The Philippines were claimed in the name of Spain in 1521 by Ferdinand Magellan, a Portuguese explorer sailing for Spain, who named the islands after King Philip II of Spain. They were then called Las Felipinas. By the 1830's Spanish culture and thought had penetrated into Filipino culture to the extent that the Filipino people began thinking about liberation from Spain. The government of Spain developed Filipino agriculture to the point that it was self-sufficient. 
+      </p>
+      <p>After some attempts at independence, and an equal number of atrocities on the part of Spain, Filipino Nationalists began to speak out. One of the most famous of the time was Jose Rizal. He studied medicine at the University of Santo Tomas in the Philippines and the University of Madrid. Rizal wrote two important novels that portrayed the abuses of Spanish rule. Although the books were banned, they were smuggled into the Philippines and widely read. On the night of his execution, on December 30, 1896, Rizal proclaimed the Philippines "the Pearl of the Oriental Seas". His death is annually commemorated on December 30.
+      </p>
+      <p>The execution of Rizal fueled the revolution. Although the Filipino rebels led by Emilio Aguinaldo did not achieve total independence, the Spanish were unable to put an end to the rebellion. Negotiations with Spain resulted in the Biak-na-Bato Pact in December 1897. All of the rebels were granted amnesty, and the revolution's leaders returned to Hong Kong in voluntary exile. Aguinaldo and his compatriots designed what is now the Philippine national flag while in Hong Kong.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="botnavcontainer">
+ <div class="botnav" style="background-color: #3366FF;">
+ 
+ <a href="Home.html" class="active">Home</a>
+ <a href="History.html">About Philippines</a>
+ <a href="Luzon.html">Tourist Attractions</a>
+ <a href="VideoGallery.html">Video Gallery</a>
+  <a href="LogIn.html">LogIn</a>
+ <a style="float:right" href="contact.html" class="contact-page">Contact Us</a>
+ </div> 
+
+</body>
+</html>
